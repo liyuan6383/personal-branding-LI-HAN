@@ -341,3 +341,43 @@ a:focus {
 		stroke-width: var(--cursor-stroke-width);
 	}
 }
+
+
+
+
+.meta {
+	grid-area: meta;
+}
+
+.meta--center {
+	justify-self: center;
+	padding-top: 20vh;
+}
+
+.meta__links {
+	display: flex;
+	flex-wrap: wrap;
+	line-height: 1.5;
+}
+
+.meta__links--column {
+	flex-direction: column;
+}
+
+.meta__links a {
+	margin: 0 1.5rem 0 0;
+}
+
+.meta__demos {
+	margin-top: 1rem;
+}
+
+.meta__demo {
+	display: inline-block;
+	margin-right: 0.75rem;
+}
+
+.meta__demo--current {
+	color: var(--color-link-hover);
+	pointer-events: none;
+}
