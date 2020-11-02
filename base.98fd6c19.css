@@ -381,3 +381,15 @@ a:focus {
 	color: var(--color-link-hover);
 	pointer-events: none;
 }
+
+#contacts{
+
+  font-size: 1em;
+  align-content:center;
+  justify-content: center;
+  text-align:center;
+  font-family: meno-banner, serif;
+
+
+
+}
